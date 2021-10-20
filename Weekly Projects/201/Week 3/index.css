@@ -1,11 +1,12 @@
+hr, h3, .instructions {
+    display: none
+}
+
 .instructions {
-    /* position: absolute; */
-    top: 100px;
-    right: 50px;
     width: 200px;
     padding: 0 20px 5px 20px;
     margin: 0 auto;
-    background: rgb(114, 113, 55)
+    background: rgb(114, 113, 55);
 }
 
 .instructions ul {
