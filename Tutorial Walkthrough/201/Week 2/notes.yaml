@@ -1,0 +1,9 @@
+HTML FORMS
+- basic input box to illustrate the idea: type=text
+- The label element,for & id attributes: 
+- Some more input types: email, password, date, search, time, submit, color, file, hidden, month, number
+- Some attributes: size, value, placeholder, id, readonly, required, maxlength
+- More: select, radio, checkbox, textarea
+
+
+Scholarship app. form with meetings for date times.
