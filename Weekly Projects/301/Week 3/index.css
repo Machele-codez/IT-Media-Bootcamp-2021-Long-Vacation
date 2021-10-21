@@ -1,8 +1,10 @@
+@font-face {
+    font-family: myPTMono;
+    src: url('PT_Mono/PTMono-Regular.ttf')
+}
+
 * {
     --my-brown: rgb(129, 103, 19);
-    --my-blue: rgb(27, 60, 143);
-    --my-orange: rgb(206, 148, 23);
-    --my-purple: rgb(135, 16, 165);
 }
 
 #main-heading {
@@ -14,32 +16,22 @@ span {
     text-decoration: line-through;
 }
 
-#para {
-    font-size: 20px;
-    columns: 2;
-    text-align: justify;
-}
-
-#para::first-letter {
-    font-size: 2em;
-    font-weight: bolder;
-    color: green;
-}
-
 .card {
     background-color: var(--my-brown);
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
     padding: 20px;
     padding-top: 5px;
     border-radius: 20px;
     color: white;
     position: relative;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 h2 {
     color: black;
+    font-family: myPTMono;
 }
 
 p.content {
