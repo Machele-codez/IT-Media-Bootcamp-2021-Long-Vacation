@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .big {
+            /* border: 1px solid white; */
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            position: relative;
+            top: 30vh;
+            left: 40vw;
+            transition: transform 1s;
+        }
+
+        .big:hover {
+            transform: rotate(360deg);
+        }
+
+        .small {
+            height: 20px;
+            width: 20px;
+            background: radial-gradient(farthest-corner at 20px 20px, red, orange);
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .one {
+            top: 0;
+            left: 90px;
+        }
+
+        .two {
+            top: 90px;
+            right: 0;
+        }
+
+        .three {
+            bottom: 0;
+            left: 90px;
+        }
+
+        .four {
+            top: 90px;
+            left: 0;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+    <div class="big">
+        <div class="small one"></div>
+        <div class="small two"></div>
+        <div class="small three"></div>
+        <div class="small four"></div>
+    </div>
+</body>
+</html>
