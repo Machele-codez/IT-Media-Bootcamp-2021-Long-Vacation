@@ -70,3 +70,8 @@ button[type="submit"] {
     color: white;
     cursor: pointer;
 }
+
+.forgot-pass {
+    color: blue;
+    text-decoration: none;
+}
